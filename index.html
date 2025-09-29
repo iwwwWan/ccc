@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axios轮询示例</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+            text-align: left;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .status {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Axios轮询数据示例</h1>
+    <div>
+        <button id="startPolling">开始轮询</button>
+        <button id="stopPolling" disabled>停止轮询</button>
+    </div>
+    <div class="status" id="status">就绪</div>
+    <div id="result"></div>
+
+    <script>
+        // 获取DOM元素
+        const startButton = document.getElementById('startPolling');
+        const stopButton = document.getElementById('stopPolling');
+        const statusElement = document.getElementById('status');
+        const resultElement = document.getElementById('result');
+        // 请求参数
+        let requestParams = {
+            accessToken: null,
+            carName: "皇冠威尔法", // 将从car.json随机获取
+            cid: 35, // 将从car.json随机获取    
+            dealerId: "202401311000000273", // 将从dealers_simplified.json随机获取
+            dealerName: "上海东昌丰田汽车销售服务有限公司", // 将从dealers_simplified.json随机获取
+            driveFlag: 1,
+            levelId: 2,
+            mobile: "13780271968",
+            name: "郑文红",
+            sex: 1,
+            sign: 1,
+            source: "WEBSITE_PC"
+        }
+        
+        // 更新状态显示的函数
+        function updateStatus(message) {
+            statusElement.textContent = message;
+            statusElement.style.color = '#4CAF50';
+        }
+        
+        // 从JSON文件随机获取数据的函数
+        async function getRandomData() {
+            try {
+                // 获取汽车数据
+                const carResponse = await fetch('car.json');
+                const cars = await carResponse.json();
+                const randomCar = cars[Math.floor(Math.random() * cars.length)];
+                
+                // 获取经销商数据
+                const dealerResponse = await fetch('dealers_simplified.json');
+                const dealers = await dealerResponse.json();
+                const randomDealer = dealers[Math.floor(Math.random() * dealers.length)];
+                
+                // 随机生成姓名
+                const familyNames = ['张', '王', '李', '赵', '刘', '陈', '杨', '黄', '周', '吴', '徐', '孙', '胡', '朱', '高', '林', '何', '郭', '马', '罗'];
+                const givenNames = ['伟', '芳', '娜', '秀英', '敏', '静', '强', '磊', '军', '洋', '勇', '艳', '杰', '丽', '涛', '明', '超', '刚', '娟', '辉'];
+                const randomFamilyName = familyNames[Math.floor(Math.random() * familyNames.length)];
+                const randomGivenName = givenNames[Math.floor(Math.random() * givenNames.length)];
+                const randomName = randomFamilyName + randomGivenName;
+                
+                // 更新请求参数
+                requestParams.carName = randomCar.name;
+                requestParams.cid = randomCar.vehicleId;
+                requestParams.dealerId = randomDealer.dealerId;
+                requestParams.dealerName = randomDealer.dealerName;
+                requestParams.name = randomName; // 更新为随机姓名
+                
+                // 更新状态显示
+                updateStatus(`已随机获取数据：汽车名称=${randomCar.name}，经销商=${randomDealer.dealerName}，姓名=${randomName}`);
+                
+                console.log('随机获取的数据:', requestParams);
+            } catch (error) {
+                console.error('获取随机数据失败:', error);
+                statusElement.textContent = '获取随机数据失败，请检查文件路径';
+                statusElement.style.color = '#f44336';
+            }
+        }
+        // 轮询相关变量
+        let pollingInterval = null;
+        const pollingRate = 2000; // 2秒轮询一次
+        
+        // 模拟API端点（实际使用时替换为真实API）
+        const apiEndpoint = 'https://os.ftms.com.cn/web-bff/website/api/test-drive';
+        
+        // 开始轮询
+        startButton.addEventListener('click', () => {
+            // 立即执行一次请求
+            fetchData();
+            
+            // 设置轮询间隔
+            pollingInterval = setInterval(fetchData, pollingRate);
+            
+            // 更新UI状态
+            startButton.disabled = true;
+            stopButton.disabled = false;
+            statusElement.textContent = '轮询中...';
+            statusElement.style.color = '#4CAF50';
+        });
+        
+        // 停止轮询
+        stopButton.addEventListener('click', () => {
+            if (pollingInterval) {
+                clearInterval(pollingInterval);
+                pollingInterval = null;
+            }
+            
+            // 更新UI状态
+            startButton.disabled = false;
+            stopButton.disabled = true;
+            statusElement.textContent = '已停止';
+            statusElement.style.color = '#f44336';
+        });
+        
+        // 数据获取函数
+        async function fetchData() {
+            try {
+                // 先获取随机数据
+                await getRandomData();
+                
+                // 使用POST方法发送请求参数
+                const response = await axios.post(apiEndpoint, requestParams, {
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+                
+                // 格式化当前时间
+                const now = new Date();
+                const timeString = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`;
+                
+                // 显示结果
+                const formattedResult = `[${timeString}] 轮询成功:\n汽车名称: ${requestParams.carName}\n经销商名称: ${requestParams.dealerName}\n人名: ${requestParams.name}`;
+                resultElement.insertAdjacentHTML('afterbegin', formattedResult);
+                
+                // 限制显示的结果数量，避免DOM过大
+                if (resultElement.children.length > 10) {
+                    resultElement.removeChild(resultElement.lastChild);
+                }
+                
+            } catch (error) {
+                const now = new Date();
+                const timeString = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`;
+                
+                const errorMessage = `[${timeString}] 轮询失败: ${error.message}\n\n`;
+                const errorDiv = document.createElement('div');
+                errorDiv.style.color = '#f44336';
+                errorDiv.textContent = errorMessage;
+                resultElement.insertBefore(errorDiv, resultElement.firstChild);
+                
+                console.error('轮询错误:', error);
+            }
+        }
+        
+        // 页面卸载时清理轮询
+        window.addEventListener('beforeunload', () => {
+            if (pollingInterval) {
+                clearInterval(pollingInterval);
+            }
+        });
+    </script>
+</body>
+</html>

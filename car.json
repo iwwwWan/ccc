@@ -1,0 +1,437 @@
+[
+  {
+    "vehicleId": 64,
+    "url": "/vehicles/皇冠 SportCross",
+    "name": "皇冠 SportCross",
+    "alias": "皇冠 SportCross",
+    "abroadType": "1",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": false,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/17f6a6dd-cee9-4f26-82cd-ec974d71ac39.jpg",
+    "listThumbPic": "https://image.ftms.com.cn/Public/Uploads/Picture/images/2022/12/272348972885217832372476271113.png",
+    "toyotaThumbPic": "",
+    "operateStatus": null,
+    "price": "￥369,000.00 ~ ￥429,000.00",
+    "panoramaUrl": null,
+    "panoramaConfigUrl": null,
+    "classificationsVo": [
+      {
+        "id": "113",
+        "name": "原装进口"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 429000,
+    "numPriceMin": 369000,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 67,
+    "url": "/vehicles/皇冠",
+    "name": "皇冠",
+    "alias": "皇冠",
+    "abroadType": "1",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": false,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/c803314a-1eee-4e2e-afad-98dd20ea0809.jpg",
+    "listThumbPic": "https://image.ftms.com.cn/Public/Uploads/Picture/images/2024/04/178361197861742733331494385457.png",
+    "toyotaThumbPic": "",
+    "operateStatus": null,
+    "price": "￥299,000.00 ~ ￥349,000.00",
+    "panoramaUrl": null,
+    "panoramaConfigUrl": null,
+    "classificationsVo": [
+      {
+        "id": "113",
+        "name": "原装进口"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 349000,
+    "numPriceMin": 299000,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 35,
+    "url": "/vehicles/皇冠威尔法",
+    "name": "皇冠威尔法",
+    "alias": "皇冠威尔法",
+    "abroadType": "1",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": false,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/f610ff30-6ce8-4982-ae60-d3856d1ff781.jpg",
+    "listThumbPic": "https://image.ftms.com.cn/Public/Uploads/Picture/images/2023/08/215178624232875986428188368542.png",
+    "toyotaThumbPic": "",
+    "operateStatus": null,
+    "price": "￥899,000.00 ~ ￥929,000.00",
+    "panoramaUrl": null,
+    "panoramaConfigUrl": null,
+    "classificationsVo": [
+      {
+        "id": "113",
+        "name": "原装进口"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 929000,
+    "numPriceMin": 899000,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 68,
+    "url": "/vehicles/全新普拉多",
+    "name": "全新普拉多",
+    "alias": "全新普拉多",
+    "abroadType": "0",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": true,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/0ee22247-9eef-41a7-83b4-46cc9bf38b07.jpg",
+    "listThumbPic": "https://operate-static.ftms.com.cn/operate/4a8cd22e-fcd9-4cc9-8ec5-2f9f553e9173.png",
+    "toyotaThumbPic": "https://operate-static.ftms.com.cn/operate/395c0716-13b9-493e-9ec9-ef5d804eaaa1.jpg",
+    "operateStatus": null,
+    "price": "￥449,800.00 ~ ￥561,800.00",
+    "panoramaUrl": null,
+    "panoramaConfigUrl": null,
+    "classificationsVo": [
+      {
+        "id": "110",
+        "name": "SUV"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 559800,
+    "numPriceMin": 449800,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 36,
+    "url": "/vehicles/新卡罗拉&双擎",
+    "name": "新卡罗拉&双擎",
+    "alias": "新卡罗拉&双擎",
+    "abroadType": "0",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": true,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/3e6dd6dd-b433-4b76-ac57-f7f234d945be.jpeg",
+    "listThumbPic": "https://image.ftms.com.cn/Public/Uploads/Picture/images/2023/05/982749648914143131252569119521.png",
+    "toyotaThumbPic": "https://operate-static.ftms.com.cn/operate/99649f9b-7520-4702-8eac-585bf4efea6b.jpg",
+    "operateStatus": null,
+    "price": "￥116,800.00 ~ ￥157,800.00",
+    "panoramaUrl": "https://official-platform-resource.ftms.com.cn/website/84/vehicleDetail/Highlight/5add2c7c-4b83-4497-ac1b-8e8464ead54f.jpg",
+    "panoramaConfigUrl": "https://3droom.ftms.com.cn/3d/group/room/#/pages/index/shopping?car_sign=Corolla_2021",
+    "classificationsVo": [
+      {
+        "id": "109",
+        "name": "轿车"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 155800,
+    "numPriceMin": 116800,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 71,
+    "url": "/vehicles/全新亚洲龙",
+    "name": "全新亚洲龙",
+    "alias": "全新亚洲龙",
+    "abroadType": "0",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": true,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/955b75d4-c207-4f91-a379-d7dcfa46e554.jpeg",
+    "listThumbPic": "https://image.ftms.com.cn/Public/Uploads/Picture/images/2024/07/333917947923572212185646289849.png",
+    "toyotaThumbPic": "https://operate-static.ftms.com.cn/operate/0eaac0d5-ef4c-4671-b7e8-45cba6d0f9a1.jpg",
+    "operateStatus": null,
+    "price": "￥178,800.00 ~ ￥259,800.00",
+    "panoramaUrl": null,
+    "panoramaConfigUrl": null,
+    "classificationsVo": [
+      {
+        "id": "109",
+        "name": "轿车"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 256800,
+    "numPriceMin": 178800,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 72,
+    "url": "/vehicles/新RAV4荣放",
+    "name": "新RAV4荣放",
+    "alias": "新RAV4荣放",
+    "abroadType": "0",
+    "vehicleModelDeleteType": "0",
+    "statusNew": true,
+    "statusSaleOnline": false,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/1b51f92f-a995-4d83-a370-7d1f8840e019.jpg",
+    "listThumbPic": "https://image.ftms.com.cn/Public/Uploads/Picture/images/2024/09/166868439153388315814842482558.png",
+    "toyotaThumbPic": "",
+    "operateStatus": null,
+    "price": "￥169,800.00 ~ ￥301,800.00",
+    "panoramaUrl": null,
+    "panoramaConfigUrl": null,
+    "classificationsVo": [
+      {
+        "id": "110",
+        "name": "SUV"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 238800,
+    "numPriceMin": 169800,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 73,
+    "url": "/vehicles/新HARRIER凌放",
+    "name": "新HARRIER凌放",
+    "alias": "新HARRIER凌放",
+    "abroadType": "0",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": false,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/61b894cb-78f3-4b7e-9c33-fae6ea63f66b.jpg",
+    "listThumbPic": "https://image.ftms.com.cn/Public/Uploads/Picture/images/2024/09/762187791198733845618338663281.png",
+    "toyotaThumbPic": "",
+    "operateStatus": null,
+    "price": "￥191,800.00 ~ ￥277,800.00",
+    "panoramaUrl": "https://official-platform-resource.ftms.com.cn/website/417/vehicleDetail/Highlight/4e8dcd49-c104-4355-8e26-cb28af73defe.jpg",
+    "panoramaConfigUrl": "https://3droom.ftms.com.cn/3d/group/room/#/pages/index/shopping?car_sign=Harrier_2021",
+    "classificationsVo": [
+      {
+        "id": "110",
+        "name": "SUV"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 275800,
+    "numPriceMin": 191800,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 12,
+    "url": "/vehicles/COASTER 柯斯达",
+    "name": "COASTER 柯斯达",
+    "alias": "COASTER 柯斯达",
+    "abroadType": "0",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": false,
+    "mainPic": "https://image.ftms.com.cn/Public/Uploads/Picture/images/2019/03/737236134585683183663627764794.png",
+    "listThumbPic": "https://image.ftms.com.cn/Public/Uploads/Picture/images/2020/05/696643394315253931973774496596.png",
+    "toyotaThumbPic": "",
+    "operateStatus": null,
+    "price": "￥0.00 ~ ￥999,999.00",
+    "panoramaUrl": "",
+    "panoramaConfigUrl": "",
+    "classificationsVo": [
+      {
+        "id": "112",
+        "name": "中型客车"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 558900,
+    "numPriceMin": 418400,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 77,
+    "url": "/vehicles/bZ5",
+    "name": "bZ5",
+    "alias": "bZ5",
+    "abroadType": "0",
+    "vehicleModelDeleteType": "0",
+    "statusNew": true,
+    "statusSaleOnline": true,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/9c4f0da4-aa2b-44c1-83fc-9cd583285ea1.jpg",
+    "listThumbPic": "https://operate-static.ftms.com.cn/operate/7cd470a0-0b8d-4137-8bba-7775dd1473db.jpg",
+    "toyotaThumbPic": "https://operate-static.ftms.com.cn/operate/bdd92064-b6b9-4935-9a7a-91b03cc43ce0.jpg",
+    "operateStatus": null,
+    "price": "￥139,800.00 ~ ￥213,800.00",
+    "panoramaUrl": "",
+    "panoramaConfigUrl": "",
+    "classificationsVo": [
+      {
+        "id": "110",
+        "name": "SUV"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 2,
+    "customerPriceText": "",
+    "numPriceMax": 199800,
+    "numPriceMin": 129800,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 52,
+    "url": "/vehicles/ALLION 亚洲狮",
+    "name": "ALLION 亚洲狮",
+    "alias": "ALLION 亚洲狮",
+    "abroadType": "0",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": false,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/14adf6b9-f9f1-49a2-b699-c2cbf30b2f97.jpeg",
+    "listThumbPic": "https://image.ftms.com.cn/Public/Uploads/Picture/images/2023/05/128283126545489311138995446736.png",
+    "toyotaThumbPic": "",
+    "operateStatus": null,
+    "price": "￥141,800.00 ~ ￥181,800.00",
+    "panoramaUrl": "https://official-platform-resource.ftms.com.cn/website/23/vehicleDetail/Highlight/a5231ecc-6d1b-4f34-91d9-8356e6b1405b.jpg",
+    "panoramaConfigUrl": "https://3droom.ftms.com.cn/3d/group/room/#/pages/index/shopping?car_sign=Allion_2021",
+    "classificationsVo": [
+      {
+        "id": "109",
+        "name": "轿车"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 179800,
+    "numPriceMin": 141800,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 57,
+    "url": "/vehicles/皇冠陆放",
+    "name": "皇冠陆放",
+    "alias": "皇冠陆放",
+    "abroadType": "0",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": true,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/a7978391-1c25-417f-9bd0-f56c2453634d.jpg",
+    "listThumbPic": "https://image.ftms.com.cn/Public/Uploads/Picture/images/2024/05/678246612167747858262632234553.png",
+    "toyotaThumbPic": "https://operate-static.ftms.com.cn/operate/c6c57a8e-d821-4405-b5d3-adb014bf2a0f.jpg",
+    "operateStatus": null,
+    "price": "￥277,800.00 ~ ￥999,999.00",
+    "panoramaUrl": "",
+    "panoramaConfigUrl": "",
+    "classificationsVo": [
+      {
+        "id": "110",
+        "name": "SUV"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 332800,
+    "numPriceMin": 284800,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 59,
+    "url": "/vehicles/卡罗拉 锐放",
+    "name": "卡罗拉 锐放",
+    "alias": "卡罗拉 锐放",
+    "abroadType": "0",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": false,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/89c4586b-10d1-438e-9dbf-866314a937c7.jpg",
+    "listThumbPic": "https://operate-static.ftms.com.cn/operate/9a885df5-f280-4ded-866a-1e91a7c776ac.png",
+    "toyotaThumbPic": "",
+    "operateStatus": null,
+    "price": "￥129,800.00 ~ ￥188,800.00",
+    "panoramaUrl": "https://official-platform-resource.ftms.com.cn/website/35/vehicleDetail/Highlight/89b04fc9-6f37-4ad7-bc42-7fe4a444b6e7.jpg",
+    "panoramaConfigUrl": "https://3droom.ftms.com.cn/3d/group/room/#/pages/index/shopping?car_sign=Corolla_Cross",
+    "classificationsVo": [
+      {
+        "id": "110",
+        "name": "SUV"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 184800,
+    "numPriceMin": 129800,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 62,
+    "url": "/vehicles/格瑞维亚GRANVIA",
+    "name": "格瑞维亚GRANVIA",
+    "alias": "格瑞维亚GRANVIA",
+    "abroadType": "0",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": true,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/1e44b67d-0495-4468-b4db-171dc951c534.jpg",
+    "listThumbPic": "https://operate-static.ftms.com.cn/operate/88648e72-aee2-4e07-a5a5-f6a1631db996.jpg",
+    "toyotaThumbPic": "https://operate-static.ftms.com.cn/operate/82fcb6af-b5ab-4e47-9644-70e1bf015b8b.jpg",
+    "operateStatus": null,
+    "price": "￥299,800.00 ~ ￥418,800.00",
+    "panoramaUrl": "https://official-platform-resource.ftms.com.cn/website/4/vehicleDetail/Highlight/e4c72fd3-cf43-4521-9304-2d69dd5a40ee.jpg",
+    "panoramaConfigUrl": "https://3droom.ftms.com.cn/3d/group/room/#/pages/index/shopping?car_sign=granvia",
+    "classificationsVo": [
+      {
+        "id": "111",
+        "name": "MPV"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 416800,
+    "numPriceMin": 299800,
+    "carPriceType": 1
+  },
+  {
+    "vehicleId": 63,
+    "url": "/vehicles/bZ3",
+    "name": "bZ3",
+    "alias": "bZ3",
+    "abroadType": "0",
+    "vehicleModelDeleteType": "0",
+    "statusNew": false,
+    "statusSaleOnline": true,
+    "mainPic": "https://operate-static.ftms.com.cn/operate/47167191-d1fb-4eb6-a5b5-020679949600.jpeg",
+    "listThumbPic": "https://image.ftms.com.cn/Public/Uploads/Picture/images/2022/12/518723673873972229184216682967.png",
+    "toyotaThumbPic": "https://operate-static.ftms.com.cn/operate/04be59be-8d5b-49ee-b3a9-62b907487de2.jpg",
+    "operateStatus": null,
+    "price": "￥149,800.00 ~ ￥223,800.00",
+    "panoramaUrl": "https://official-platform-resource.ftms.com.cn/website/5/vehicleDetail/Highlight/dcf394bb-2741-4157-9384-d1ca041fc45b.png",
+    "panoramaConfigUrl": "https://3droom.ftms.com.cn/3d/group/room/#/pages/index/shopping?car_sign=bz3",
+    "classificationsVo": [
+      {
+        "id": "109",
+        "name": "轿车"
+      }
+    ],
+    "oldCoaster": false,
+    "dealerRelFlag": 1,
+    "customerPriceText": "",
+    "numPriceMax": 199800,
+    "numPriceMin": 169800,
+    "carPriceType": 1
+  }
+]
